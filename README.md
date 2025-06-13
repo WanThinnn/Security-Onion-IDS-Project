@@ -37,8 +37,8 @@ Network intrusion detection system implementation using Security Onion - a compr
 ## Advanced Solutions
 
 ### 1. Cloud-Native SIEM
-**Architecture:** Container-based deployment using Docker/Kubernetes
-- **Features:** Auto-scaling, multi-region, elastic scalability
+**Architecture:** AWS-based deployment using Security Onion AMI images with additional EC2 instances
+- **Features:** Auto-scaling, multi-region, elastic scalability, managed infrastructure
 - **Platforms:** AWS, Azure, GCP, private cloud
 - **Demo:** [Cloud-Native Demo](https://youtu.be/W58uNYq1-xU?si=tZ9231kaI1O2CNko)
 
