@@ -2,9 +2,35 @@
 
 ## Overview
 
-Network intrusion detection system implementation using Security Onion - a comprehensive open-source platform for network security monitoring and threat detection.
+Security Onion is a free, open-source Linux distribution designed for intrusion detection, enterprise security monitoring, and log management. Built on Ubuntu, it provides a comprehensive Network Security Monitoring (NSM) platform that combines multiple security tools into a unified solution.
 
-**Core Components:** Suricata, Zeek, Elasticsearch, Kibana, Wazuh
+### Theoretical Foundation
+
+Security Onion implements a layered security approach based on the principle of **Defense in Depth**. The platform operates on the NSM methodology, which focuses on:
+
+- **Full Packet Capture**: Complete network traffic recording for forensic analysis
+- **Intrusion Detection**: Real-time analysis using signature-based and anomaly-based detection
+- **Network Metadata**: Statistical summaries and connection logs for behavioral analysis
+- **Alert Data**: Prioritized security events requiring investigation
+
+### Core Architecture Components
+
+The platform integrates several industry-standard tools into a cohesive ecosystem:
+
+- **Suricata**: High-performance Network IDS/IPS engine with multi-threading capabilities
+- **Zeek (Bro)**: Network analysis framework providing detailed connection logs and metadata
+- **Elasticsearch**: Distributed search and analytics engine for log storage and indexing
+- **Kibana**: Data visualization and dashboard platform for security analytics
+- **Wazuh**: Host-based intrusion detection and security information management
+
+### Detection Methodologies
+
+Security Onion employs multiple detection techniques:
+
+1. **Signature-based Detection**: Uses predefined rules to identify known threats and attack patterns
+2. **Anomaly-based Detection**: Establishes baseline behavior and identifies deviations
+3. **Behavioral Analysis**: Monitors network patterns and user activities for suspicious behavior
+4. **Threat Intelligence Integration**: Incorporates IOCs and TTPs from external feeds
 
 **System Requirements:** 8GB+ RAM, 4+ cores, 200GB+ storage, 2+ NICs
 
@@ -76,9 +102,16 @@ Network intrusion detection system implementation using Security Onion - a compr
 4. Configure Elasticsearch cluster and Kibana
 5. Access web interface: `https://[management-ip]`
 
----
+## Collaborator
 
-**Project Info:**
+- **Lại Quan Thiên** - [WanThinnn](https://github.com/WanThinnn)
+- **Mai Nguyễn Nam Phương** - [Mai Nguyen Nam Phuong - Cyber Security](https://github.com/namphuong11)
+- **Trần Thế Hữu Phúc** - [tranthehuuphuc](https://github.com/tranthehuuphuc)
+- **Hồ Diệp Huy** - [hohuyy](https://github.com/hohuyy)
+  
+
+## Project Info
 - Course: NT204.P21.ANTT - Intrusion Detection and Prevention Systems
-- Group: G12-A32
-- Institution: University of Information Technology (UIT)
+- Group: G12
+- Project ID: A32
+- Institution: University of Information Technology (UIT) - VNU-HCM
