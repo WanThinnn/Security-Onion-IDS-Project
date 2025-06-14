@@ -98,7 +98,7 @@ Security Onion employs multiple detection techniques:
 
 1. Download Security Onion ISO and verify checksum
 2. Install with dual NICs (management + monitoring)
-3. Run setup wizard for sensor deployment
+3. Run setup wizard for Standalone Mode
 4. Configure Elasticsearch cluster and Kibana
 5. Access web interface: `https://[management-ip]`
 
